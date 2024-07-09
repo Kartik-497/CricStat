@@ -1,0 +1,137 @@
+body{
+    background-image: url('./img1.jpg');
+    background-size: cover;
+    color: #eee;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+#login-container{
+    background-color: rgba(47, 34, 58, 0.76);
+    border-radius: 10px;
+}
+#login-img{
+   border-radius: 10px;
+}
+#login{
+    background-color: rgba(47, 34, 58, 0.76);
+}
+
+.aboutsection{
+    background: url('')
+}
+
+
+/* About section CSS starts here */
+
+#about {
+    padding: 80px 0;
+    color: #fff;
+        background-color: rgba(47, 34, 58, 0.76);
+        border-radius: 10px;
+    }
+  
+  
+  .row {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .about-col-1 {
+    flex-basis: 35%;
+  }
+  
+  .about-col-1 img {
+    width: 100%;
+    border-radius: 15px;
+  }
+  
+  .about-col-2 {
+    flex-basis: 60%;
+  }
+
+  #team_overview1{
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin: 0 auto;
+    background-image: url(./batting.jpeg);
+    background-size: cover;
+    color: black;
+    height: 320px;
+    background-size: 200px;
+}
+#team_overview2{
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin-left: 10px;
+    background-image: url(./bowler.jpg);
+    background-size: cover;
+    color: black;
+    height: 320px;
+    background-size: 200px;
+}
+#team_overview3{
+    width: 400px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    margin-left: 10px;
+    background-image: url(./allrounder.jpeg);
+    background-size: cover;
+    color: black;
+    height: 320px;
+    background-size: 200px;
+}
+.player{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+.player-name{
+    font-weight: bold;
+}
+.player-skills{
+    font-style: italic;
+}
+#team_overview{
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 0px;
+    color: rgb(36, 158, 228);
+}
+.team-card{
+    float: left;
+    width: calc(33.33% - 20px);
+    box-sizing: border-box;
+    padding: 10px;
+    margin-left: 10px;
+    transition: transform 1s ease;
+}
+.team-card:hover{
+    transform: scale(1.05);
+}
+
+
